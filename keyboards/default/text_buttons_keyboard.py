@@ -19,6 +19,7 @@ switchgear_choose = ReplyKeyboardMarkup(
             KeyboardButton(text="КРУ-10кВ СН блока №3")
         ],
 
+
     ],
     resize_keyboard=True
 )
@@ -40,6 +41,9 @@ element_220_choose = ReplyKeyboardMarkup(
         ],
         [
             KeyboardButton(text="ТН-220 1,2 СШ")
+        ],
+        [
+            KeyboardButton(text="Назад"),
         ],
 
     ],
