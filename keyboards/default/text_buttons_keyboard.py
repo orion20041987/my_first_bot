@@ -491,3 +491,21 @@ switchgear_status_VT_zn = ReplyKeyboardMarkup(
     ],
     resize_keyboard=True
 )
+
+switchgear_status_VT_shr = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton(text="Нормальное условие работы"),
+            KeyboardButton(text="В ремонте"),
+        ],
+        [
+            KeyboardButton(text="С принудительной деблокировкой"),
+        ],
+        [
+            KeyboardButton(text="Назад"),
+
+        ],
+
+    ],
+    resize_keyboard=True
+)
